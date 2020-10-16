@@ -7,4 +7,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name ="logo">
+        <item name ="android:layout_marginTop">80dp</item>
+    </style>
+
+    <style name ="search">
+        <item name ="android:layout_marginTop">20dp</item>
+    </style>
+
 </resources>

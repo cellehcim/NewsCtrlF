@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">News Ctrl + F</string>
+    <string name="search_cta">Search</string>
+    <string name="search_example">Search for…</string>
 </resources>
