@@ -23,28 +23,29 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
             <ImageView
-                android:id="@+id/imageView"
-                style="@style/logo"
-                android:layout_width="235dp"
-                android:layout_height="239dp"
-                android:layout_gravity="center"
-                app:srcCompat="@drawable/logo" />
+                android:id="@+id/photo"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_gravity="center"/>
 
-            <EditText
-                android:id="@+id/editTextTextPersonName"
-                style="@style/search"
+            <TextView
+                android:id="@+id/info"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:text="@string/search_example" />
+                android:text="TextView" />
 
-            <Button
-                android:id="@+id/button"
-                style="@style/search"
+            <TextView
+                android:id="@+id/article_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/search_cta" />
+                android:text="TextView" />
 
         </LinearLayout>
 
